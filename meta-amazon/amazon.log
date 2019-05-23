@@ -1,0 +1,68 @@
+05-21 21:56 [MainProcess, 6227] [INFO ]  Time used to process the Amazon data set = 0.1108086109161377 seconds.
+05-21 21:56 [MainProcess, 6227] [INFO ]  Number of training instances = 27677, number of features = 5000.
+05-21 21:56 [MainProcess, 6227] [INFO ]  Number of nonzero elements = 2140430
+05-21 21:56 [MainProcess, 6227] [INFO ]  amazon_xx shape = (27677, 5000).
+05-21 21:56 [MainProcess, 6227] [INFO ]  amazon_yy shape = (27677, 1).
+05-21 21:56 [MainProcess, 6227] [INFO ]  Length of the books data set label list = 6465, label values = [0. 1.], label balance = 3264.0
+05-21 21:56 [MainProcess, 6227] [INFO ]  Length of the dvd data set label list = 5586, label values = [0. 1.], label balance = 2807.0
+05-21 21:56 [MainProcess, 6227] [INFO ]  Length of the electronics data set label list = 7681, label values = [0. 1.], label balance = 3857.0
+05-21 21:56 [MainProcess, 6227] [INFO ]  Length of the kitchen data set label list = 7945, label values = [0. 1.], label balance = 3954.0
+05-21 21:56 [MainProcess, 6227] [INFO ]  Data sets: ['books', 'dvd', 'electronics', 'kitchen']
+05-21 21:56 [MainProcess, 6227] [INFO ]  Number of total instances in the data sets: [6465, 5586, 7681, 7945]
+05-21 21:56 [MainProcess, 6227] [INFO ]  Training fraction = 1.0, number of actual training data instances = 2000
+05-21 21:56 [MainProcess, 6227] [INFO ]  ----------------------------------------------------------------------------------------------------
+05-21 21:56 [MainProcess, 6227] [INFO ]  Training with domain adaptation using PyTorch madnNet: 
+05-21 21:56 [MainProcess, 6227] [INFO ]  Hyperparameter setting = {'hidden_layers': [1000, 500, 100], 'gat_hidden_layers': [20], 'num_classes': 2, 'num_epochs': 50, 'num_trains': 2000, 'batch_size': 30, 'dropout': 0.1, 'alpha': 0.005, 'nheads': 5, 'margin': 1, 'k': 5, 'mu': 0.01, 'update_lr': 0.05, 'meta_lr': 0.05, 'update_step': 4, 'mode': 'dynamic', 'gamma': 1.0, 'lambda': 0.0001, 'verbose': True, 'data_name': ['books', 'dvd', 'electronics', 'kitchen'], 'num_data_sets': 4, 'num_domains': 3, 'input_dim': 5000}.
+05-22 00:23 [MainProcess, 12559] [INFO ]  Time used to process the Amazon data set = 0.1105959415435791 seconds.
+05-22 00:23 [MainProcess, 12559] [INFO ]  Number of training instances = 27677, number of features = 5000.
+05-22 00:23 [MainProcess, 12559] [INFO ]  Number of nonzero elements = 2140430
+05-22 00:23 [MainProcess, 12559] [INFO ]  amazon_xx shape = (27677, 5000).
+05-22 00:23 [MainProcess, 12559] [INFO ]  amazon_yy shape = (27677, 1).
+05-22 00:23 [MainProcess, 12559] [INFO ]  Length of the books data set label list = 6465, label values = [0. 1.], label balance = 3264.0
+05-22 00:23 [MainProcess, 12559] [INFO ]  Length of the dvd data set label list = 5586, label values = [0. 1.], label balance = 2807.0
+05-22 00:23 [MainProcess, 12559] [INFO ]  Length of the electronics data set label list = 7681, label values = [0. 1.], label balance = 3857.0
+05-22 00:23 [MainProcess, 12559] [INFO ]  Length of the kitchen data set label list = 7945, label values = [0. 1.], label balance = 3954.0
+05-22 00:23 [MainProcess, 12559] [INFO ]  Data sets: ['books', 'dvd', 'electronics', 'kitchen']
+05-22 00:23 [MainProcess, 12559] [INFO ]  Number of total instances in the data sets: [6465, 5586, 7681, 7945]
+05-22 00:23 [MainProcess, 12559] [INFO ]  Training fraction = 1.0, number of actual training data instances = 2000
+05-22 00:23 [MainProcess, 12559] [INFO ]  ----------------------------------------------------------------------------------------------------
+05-22 00:23 [MainProcess, 12559] [INFO ]  Training with domain adaptation using PyTorch madnNet: 
+05-22 00:23 [MainProcess, 12559] [INFO ]  Hyperparameter setting = {'hidden_layers': [1000, 500, 100], 'gat_hidden_layers': [20], 'num_classes': 2, 'num_epochs': 50, 'num_trains': 2000, 'batch_size': 30, 'dropout': 0.1, 'alpha': 0.005, 'nheads': 5, 'margin': 1, 'k': 5, 'mu': 0.01, 'update_lr': 0.05, 'meta_lr': 0.05, 'update_step': 4, 'mode': 'dynamic', 'gamma': 1.0, 'lambda': 0.0001, 'verbose': True, 'data_name': ['books', 'dvd', 'electronics', 'kitchen'], 'num_data_sets': 4, 'num_domains': 3, 'input_dim': 5000}.
+05-22 00:24 [MainProcess, 12559] [INFO ]  Iteration 0, loss = 61.757659673690796, pred_acc = 0.5
+05-22 00:24 [MainProcess, 12559] [INFO ]  Iteration 1, loss = 48.78201597929001, pred_acc = 0.5
+05-22 00:25 [MainProcess, 12559] [INFO ]  Iteration 2, loss = 46.36713832616806, pred_acc = 0.6333333333333333
+05-22 00:25 [MainProcess, 12691] [INFO ]  Time used to process the Amazon data set = 0.10925507545471191 seconds.
+05-22 00:25 [MainProcess, 12691] [INFO ]  Number of training instances = 27677, number of features = 5000.
+05-22 00:25 [MainProcess, 12691] [INFO ]  Number of nonzero elements = 2140430
+05-22 00:25 [MainProcess, 12691] [INFO ]  amazon_xx shape = (27677, 5000).
+05-22 00:25 [MainProcess, 12691] [INFO ]  amazon_yy shape = (27677, 1).
+05-22 00:25 [MainProcess, 12691] [INFO ]  Length of the books data set label list = 6465, label values = [0. 1.], label balance = 3264.0
+05-22 00:25 [MainProcess, 12691] [INFO ]  Length of the dvd data set label list = 5586, label values = [0. 1.], label balance = 2807.0
+05-22 00:25 [MainProcess, 12691] [INFO ]  Length of the electronics data set label list = 7681, label values = [0. 1.], label balance = 3857.0
+05-22 00:25 [MainProcess, 12691] [INFO ]  Length of the kitchen data set label list = 7945, label values = [0. 1.], label balance = 3954.0
+05-22 00:25 [MainProcess, 12691] [INFO ]  Data sets: ['books', 'dvd', 'electronics', 'kitchen']
+05-22 00:25 [MainProcess, 12691] [INFO ]  Number of total instances in the data sets: [6465, 5586, 7681, 7945]
+05-22 00:25 [MainProcess, 12691] [INFO ]  Training fraction = 1.0, number of actual training data instances = 2000
+05-22 00:25 [MainProcess, 12691] [INFO ]  ----------------------------------------------------------------------------------------------------
+05-22 00:25 [MainProcess, 12691] [INFO ]  Training with domain adaptation using PyTorch madnNet: 
+05-22 00:25 [MainProcess, 12691] [INFO ]  Hyperparameter setting = {'hidden_layers': [1000, 500, 100], 'gat_hidden_layers': [20], 'num_classes': 2, 'num_epochs': 5, 'num_trains': 2000, 'batch_size': 30, 'dropout': 0.1, 'alpha': 0.005, 'nheads': 5, 'margin': 1, 'k': 5, 'mu': 0.01, 'update_lr': 0.05, 'meta_lr': 0.05, 'update_step': 4, 'mode': 'dynamic', 'gamma': 1.0, 'lambda': 0.0001, 'verbose': True, 'data_name': ['books', 'dvd', 'electronics', 'kitchen'], 'num_data_sets': 4, 'num_domains': 3, 'input_dim': 5000}.
+05-22 00:25 [MainProcess, 12691] [INFO ]  Iteration 0, loss = 61.757659673690796, pred_acc = 0.5
+05-22 00:26 [MainProcess, 12691] [INFO ]  Iteration 1, loss = 48.78201597929001, pred_acc = 0.5
+05-22 00:26 [MainProcess, 12691] [INFO ]  Iteration 2, loss = 46.36713832616806, pred_acc = 0.6333333333333333
+05-22 00:27 [MainProcess, 12691] [INFO ]  Iteration 3, loss = 43.75082516670227, pred_acc = 0.5666666666666667
+05-22 00:27 [MainProcess, 12691] [INFO ]  Iteration 4, loss = 39.9294508099556, pred_acc = 0.7
+05-22 15:59 [MainProcess, 28132] [INFO ]  Time used to process the Amazon data set = 0.11213040351867676 seconds.
+05-22 15:59 [MainProcess, 28132] [INFO ]  Number of training instances = 27677, number of features = 5000.
+05-22 15:59 [MainProcess, 28132] [INFO ]  Number of nonzero elements = 2140430
+05-22 15:59 [MainProcess, 28132] [INFO ]  amazon_xx shape = (27677, 5000).
+05-22 15:59 [MainProcess, 28132] [INFO ]  amazon_yy shape = (27677, 1).
+05-22 15:59 [MainProcess, 28132] [INFO ]  Length of the books data set label list = 6465, label values = [0. 1.], label balance = 3264.0
+05-22 15:59 [MainProcess, 28132] [INFO ]  Length of the dvd data set label list = 5586, label values = [0. 1.], label balance = 2807.0
+05-22 15:59 [MainProcess, 28132] [INFO ]  Length of the electronics data set label list = 7681, label values = [0. 1.], label balance = 3857.0
+05-22 15:59 [MainProcess, 28132] [INFO ]  Length of the kitchen data set label list = 7945, label values = [0. 1.], label balance = 3954.0
+05-22 15:59 [MainProcess, 28132] [INFO ]  Data sets: ['books', 'dvd', 'electronics', 'kitchen']
+05-22 15:59 [MainProcess, 28132] [INFO ]  Number of total instances in the data sets: [6465, 5586, 7681, 7945]
+05-22 15:59 [MainProcess, 28132] [INFO ]  Training fraction = 1.0, number of actual training data instances = 2000
+05-22 15:59 [MainProcess, 28132] [INFO ]  ----------------------------------------------------------------------------------------------------
+05-22 15:59 [MainProcess, 28132] [INFO ]  Training with domain adaptation using PyTorch madnNet: 
+05-22 15:59 [MainProcess, 28132] [INFO ]  Hyperparameter setting = {'hidden_layers': [1000, 500, 100], 'gat_hidden_layers': [20], 'num_classes': 2, 'num_epochs': 5, 'num_trains': 2000, 'batch_size': 30, 'dropout': 0.1, 'alpha': 0.005, 'nheads': 5, 'margin': 1, 'k': 5, 'mu': 0.01, 'update_lr': 0.05, 'meta_lr': 0.05, 'update_step': 4, 'mode': 'dynamic', 'gamma': 1.0, 'lambda': 0.0001, 'verbose': True, 'data_name': ['books', 'dvd', 'electronics', 'kitchen'], 'num_data_sets': 4, 'num_domains': 3, 'input_dim': 5000}.
